@@ -62,18 +62,24 @@ A 3-stage YOLOv8 pipeline that detects vehicles, checks seatbelt compliance, and
 ## 📁 Project Structure
 
 ```
-vehicle_detection/
-├── app.py                  ← Streamlit web app  (recommended)
-├── cli.py                  ← Command-line batch runner
-├── detector.py             ← Core detection engine
+seatbelt-violation-detection/
+├── app.py                  # Streamlit web app (recommended)
+├── cli.py                  # Command-line batch runner
+├── detector.py             # Core detection engine
 ├── requirements.txt
+├── README.md
+├── .gitignore
+│
 ├── demo/
-│   └── banner.png          ← Demo banner image
+│   ├── demo.mp4            # 🎥 Demo video
+│   └── banner.png          # 🖼️ Banner image
+│
 ├── models/
-│   ├── car_detector.pt     ← ⬅  your car detector
-│   ├── seatbelt.pt         ← ⬅  your seatbelt model
-│   └── best_plate.pt       ← ⬅  your plate model
-└── output/                 ← processed videos saved here
+│   ├── car_detector.pt     # ⬅ Car detection model
+│   ├── seatbelt.pt         # ⬅ Seatbelt detection model
+│   └── best_plate.pt       # ⬅ License plate model
+│
+├── training/               # Training notebooks & configs
 ```
 
 ---
