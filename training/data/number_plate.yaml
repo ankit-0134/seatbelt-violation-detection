@@ -1,0 +1,12 @@
+names:
+- License_Plate
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: vehicle-registration-plates-trudk-bof6v
+  url: https://universe.roboflow.com/aryamans-workspace-etmwn/vehicle-registration-plates-trudk-bof6v/dataset/1
+  version: 1
+  workspace: aryamans-workspace-etmwn
+test: ../test/images
+train: ../train/images
+val: ../valid/images

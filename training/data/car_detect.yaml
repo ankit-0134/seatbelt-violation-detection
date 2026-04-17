@@ -1,0 +1,15 @@
+names:
+- bus
+- car
+- truck
+- undefined
+nc: 4
+roboflow:
+  license: MIT
+  project: goodconditionstraffic-aouon
+  url: https://universe.roboflow.com/aryamans-workspace-etmwn/goodconditionstraffic-aouon/dataset/1
+  version: 1
+  workspace: aryamans-workspace-etmwn
+test: ../test/images
+train: ../train/images
+val: ../valid/images

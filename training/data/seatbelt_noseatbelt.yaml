@@ -1,0 +1,13 @@
+names:
+- noseatbelt
+- seatbelt
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: seatbelt-detection-esut6-jnc8k
+  url: https://app.roboflow.com/ankits-workspace-ftb9a/seatbelt-detection-esut6-jnc8k/1
+  version: 1
+  workspace: ankits-workspace-ftb9a
+test: ../test/images
+train: ../train/images
+val: ../valid/images
